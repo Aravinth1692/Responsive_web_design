@@ -1,0 +1,160 @@
+  .child {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+  }
+  .recchild {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+  }
+  .alignRow{
+    display: flex;
+    flex-direction: row;
+  }
+  .container1 {
+    border:1px solid black;
+    display: flex;
+    /* width: auto; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .boldstyle{
+    font-weight: 600;
+  }
+  
+.btnStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.btnSubmitMrg{
+margin-right: 10%;
+}
+.btnCancelMrg{
+    margin-right: 4%;
+}
+.mrgBottm{
+    margin-bottom: 20px;
+}
+.mrgBottminput{
+    margin-bottom: 15px;
+}
+@media (min-width:320px)  {  
+    .container {
+        /* height: 250px; */
+        border:1px solid black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        flex-direction: row;
+      }  
+      .alignRows{
+        display: flex;
+        flex-direction: column;
+      }
+      .seatMrg{
+        margin-left: 9px;
+    }
+    .phNomrg{
+        margin-left: 4.5%;
+    }
+    .mailmrg{
+       margin-left: 18%;
+    }
+} 
+@media (min-width:481px)  {  
+    .container {
+        /* height: 250px; */
+        border:1px solid black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        flex-direction: row;
+      }
+      .alignRows{
+        display: flex;
+        flex-direction: column;
+      }
+} 
+@media (min-width:641px)  {  
+    .container {
+        /* height: 250px; */
+        border:1px solid black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        flex-direction: row;
+
+      }
+      .alignRows{
+        display: flex;
+        flex-direction: column;
+      }
+} 
+
+
+@media (min-width:961px)  {  
+    .container {
+        /* height: 250px; */
+        border:1px solid black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        flex-direction: column;
+      }
+      .alignRows{
+        display: flex;
+        flex-direction: row;
+      }
+} 
+@media (min-width:1025px) {  
+    .container {
+        /* height: 250px; */
+        border:1px solid black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        flex-direction: column;
+      }
+      .alignRows{
+        display: flex;
+        flex-direction: row;
+      }
+    
+} 
+@media (min-width:1281px) {  
+    .container {
+        /* height: 250px; */
+        border:1px solid black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        flex-direction: column;
+      }
+      .alignRows{
+        display: flex;
+        flex-direction: row;
+      }
+}
+.displeyTxt{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
