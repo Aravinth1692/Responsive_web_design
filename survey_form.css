@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    flex-direction: column;
+  }  
+  .nameStyle{
+    display:flex;
+    flex-direction: column;
+  }
+ .marginBtm{
+    margin-bottom: 15px;
+ }
+ .radioStyle{
+    display: flex;
+    justify-content: center;
+ }
+
+@media (min-width:320px)  {  
+    .namecolSTyle{
+        display: flex;
+        flex-direction: column;
+      }
+      .mrgright10{
+        margin-right: 0px;
+      }
+      .mailwidth{
+        width:100%
+      }
+      .txtareawidth{
+        width:94%;
+        height: 80px;
+      }
+} 
+@media (min-width:481px)  {  
+    .namecolSTyle{
+        display: flex;
+        flex-direction: column;
+      }
+      .mrgright10{
+        margin-right: 0px;
+      }
+      .mailwidth{
+        width:100%
+      }
+      .txtareawidth{
+        width:94%;
+        height: 80px;
+      } 
+} 
+@media (min-width:641px)  {  
+    .namecolSTyle{
+        display: flex;
+        flex-direction: column;
+      }
+      .mrgright10{
+        margin-right: 0px;
+      }
+      .mailwidth{
+        width:100%
+      }
+      .txtareawidth{
+        width:94%;
+        height: 80px;
+      }
+} 
+
+@media (min-width:961px)  {  
+    .namecolSTyle{
+        display: flex;
+        flex-direction: row;
+      }
+      .mrgright10{
+        margin-right: 10px;
+      }
+      .mailwidth{
+        width:28%;
+      }
+      .txtareawidth{
+        width:94%;
+        height: 80px;
+      }
+} 
+@media (min-width:1025px) {  
+    .namecolSTyle{
+        display: flex;
+        flex-direction: row;
+      }    
+      .mrgright10{
+        margin-right: 10px;
+      }
+      .mailwidth{
+        width:28%;
+      }
+      .txtareawidth{
+        width:94%;
+        height: 80px;
+      }
+} 
+@media (min-width:1281px) {  
+    .namecolSTyle{
+        display: flex;
+        flex-direction: row;
+      }
+      .mrgright10{
+        margin-right: 10px;
+      }
+      .mailwidth{
+        width:28%;
+      }
+      .txtareawidth{
+        width:94%;
+        height: 80px;
+      }
+}
